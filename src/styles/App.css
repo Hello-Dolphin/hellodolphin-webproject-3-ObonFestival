@@ -1,12 +1,29 @@
-.App {
-	text-align: center;
+.chomfire{
+	animation: x 3s ease 0s infinite normal none;
 }
 
-.App-logo {
-	height: 40vmin;
-	pointer-events: none;
+@keyframes x {
+    0.0%{
+        transform: translate(0px);
+    }
+    7.4%{
+        transform: translate(25px);
+    }
 }
 
+<<<<<<< HEAD
+.text {
+	animation: y 20s ease 0s normal none;
+}
+@keyframes y {
+    0.0%{
+        opacity: 0;
+    }
+    10.4%{
+        opacity: 1;
+    }
+}
+=======
 @media (prefers-reduced-motion: no-preference) {
 	.App-logo {
 		animation: App-logo-spin infinite 20s linear;
@@ -28,12 +45,26 @@
 	color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-	from {
-		transform: rotate(0deg);
-	}
-
-	to {
-		transform: rotate(360deg);
-	}
+.test {
+	height: 120px;
+	 width: 120px;
+	 position: absolute;
+    left: 15vw;
+    bottom: 13vw;
+    animation: scale 2s ease-in-out alternate infinite;  
+    transform-origin: bottom center;
 }
+
+
+
+@keyframes  scale{
+	0%{
+        transform: rotateZ(-2deg);
+        
+    }
+    100%{
+        transform: rotateZ(7deg);
+    }
+}
+
+>>>>>>> 7373a24a0885c366f4d6753b54f1c78a48fa9a20

@@ -48,7 +48,7 @@ const Text = styled.p`
     font-family: prompt;
     font-style: normal;
     font-weight: normal;
-    font-size: 35px;
+    font-size: 24px;
     text-align: left;
     color: white;
 `;

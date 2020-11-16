@@ -20,6 +20,7 @@ const Text = styled.div`
     font-weight: bold;
     font-size: 64px;
     margin-top: 80px;
+    text-align: center;
 `;
 
 const Box = styled.div`
