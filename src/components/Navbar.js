@@ -7,7 +7,7 @@ const Nav = styled.div`
 	height: 80px;
 	padding: 0 360px 0 360px;
 	display: flex;
-	align-item: center;
+	align-items: center;
 	justify-content: space-around;
 	background-color: black;
 	-webkit-box-shadow: 0px 5px 12px 0px rgba(0,0,0,0.75);
@@ -40,7 +40,7 @@ const NavItem = styled.a`
 	color: white;
 	display: flex;
 	flex-direction: column;
-	align-item: center;
+	align-items: center;
 	justify-content: center;
 	border-bottom-left-radius: 20px;
 	border-bottom-right-radius: 20px;
@@ -57,7 +57,7 @@ const NavItem = styled.a`
 `;
 
 const NavItemText = styled.p`
-	font-size: 16px;
+	font-size: 25px;
 	margin-bottom: 0;
 	text-transform: uppercase;
 	font-family: Josefin Sans;
