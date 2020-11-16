@@ -1,11 +1,11 @@
 .text {
-	animation: y 20s ease 0s normal none;
+	animation: y 10s ease 0s normal none;
 }
 @keyframes y {
     0.0%{
         opacity: 0;
     }
-    10.4%{
+    100%{
         opacity: 1;
     }
 }
