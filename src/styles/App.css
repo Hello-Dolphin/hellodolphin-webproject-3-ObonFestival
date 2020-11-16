@@ -10,12 +10,7 @@
     }
 }
 
-.chromfire {
-	height: 120px;
-	 width: 120px;
-	 position: absolute;
-    left: 15vw;
-    bottom: 13vw;
+.chromfire{
     animation: scale 2s ease-in-out alternate infinite;  
     transform-origin: bottom center;
 }

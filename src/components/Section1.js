@@ -1,8 +1,7 @@
 import styled from 'styled-components';
 import Sc1_background from '../images/section1_bg.png';
-import chromfire from '../images/Chromfire.png';
 import keyframe from '../styles/App.css';
-import Chromfire from '../images/Chromfire.png';
+import fire from '../images/Chromfire.png';
 
 const Section = styled.div`
 	display: flex;
@@ -55,12 +54,11 @@ export default () => {
 		<Section id="section1">
 
 			<>
-			<Chromfire className="chomfire" src={chromfire}></Chromfire>
+				<Chromfire className="chromfire" src={fire}></Chromfire>
 				<Text1 className="text">Obon</Text1>
 				<Text2 className="text">Festival</Text2>
 
-			<Chromfire className ="test" src={Chromfire}></Chromfire>
-			<Chromfire className ="test" src={Chromfire}></Chromfire>
+			
 
 					
 
