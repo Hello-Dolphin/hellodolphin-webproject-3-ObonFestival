@@ -27,7 +27,6 @@ const BoxBird = styled.div`
 const Bird = styled.img`
     width: 300px;
     height: 300px;
-    position: relative;
     transform: translateY(90px);
 `;
 

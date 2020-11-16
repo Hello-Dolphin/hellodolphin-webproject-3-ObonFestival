@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import Sc1_background from '../images/section1_bg.png';
+import chromfire from '../images/Chromfire.png';
 
 const Section = styled.div`
 	display: flex;
@@ -21,6 +22,8 @@ const Text1 = styled.h1`
 	color: white;
 	text-transform: uppercase;
 	font-family: Josefin Sans;
+	transform: translateY(-70px);
+
 `;
 
 const Text2 = styled.h1`
@@ -29,7 +32,25 @@ const Text2 = styled.h1`
 	color: #EEE;
 	text-transform: uppercase;
 	font-family: Josefin Sans;
+	transform: translateY(-65px);
+
 `;
+
+const Chromfire = styled.img`
+	 width: 100px;
+    height: 100px;
+	position: relative;
+	transform: translateY(200px);
+	margin-right: 990px; 
+
+
+
+	
+
+`;
+
+
+
 
 export default () => {
 	return (
@@ -37,9 +58,11 @@ export default () => {
 		<Section id="section1">
 
 			<>
-
+			<Chromfire src={chromfire} />
 				<Text1>Obon</Text1>
 				<Text2>Festival</Text2>
+					
+
 			</>
 		</Section>
 	)
