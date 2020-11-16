@@ -28,12 +28,25 @@
 	color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-	from {
-		transform: rotate(0deg);
-	}
-
-	to {
-		transform: rotate(360deg);
-	}
+.test {
+	height: 120px;
+	 width: 120px;
+	 position: absolute;
+    left: 15vw;
+    bottom: 13vw;
+    animation: scale 2s ease-in-out alternate infinite;  
+    transform-origin: bottom center;
 }
+
+
+
+@keyframes  scale{
+	0%{
+        transform: rotateZ(-2deg);
+        
+    }
+    100%{
+        transform: rotateZ(7deg);
+    }
+}
+
