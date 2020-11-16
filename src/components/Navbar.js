@@ -17,7 +17,7 @@ const Nav = styled.div`
 `;
 
 const NavLogo = styled.div`
-	position: absolute;
+	position: fixed;
 	left: 200px;
 	top: 40px;
 	height: 80px;

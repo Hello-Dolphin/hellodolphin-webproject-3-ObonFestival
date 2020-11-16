@@ -6,7 +6,6 @@ import {
 } from "react-router-dom";
 
 import Navbar from './Navbar.js';
-import About from './About.js';
 import Section1 from './Section1.js';
 import Section2 from './Section2.js';
 import Section3 from './Section3.js';
