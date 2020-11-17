@@ -4,7 +4,7 @@ import prop from '../images/GroupBG_sec5.png';
 
 const Bg = styled.div`
     width: 100vw;
-    height: 135vh;
+    height: 110vh;
     background: rgba(56, 55, 55, 0.67);
     background-image: url(${prop});
     background-size: cover;

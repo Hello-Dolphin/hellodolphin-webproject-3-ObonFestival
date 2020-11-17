@@ -14,7 +14,7 @@ import Section5 from './Section5.js';
 import Section6 from './Section6.js';
 import Section7 from './Section7.js';
 import Section8 from './Section8.js';
-
+import End from './zEnd.js';
 
 
 export default () => {
@@ -38,6 +38,7 @@ export default () => {
 						<Section3 />
 						<Section4 />
 						<Section5 />
+						<End />
 					</Route>
 				</Switch>
 			</Router>
