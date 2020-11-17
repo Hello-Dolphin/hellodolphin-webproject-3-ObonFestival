@@ -85,13 +85,13 @@ export default () => {
     return (
         <Temple id="section4">
             <Divider></Divider>
-            <Text1>DATE OF FESTIVAL</Text1>
+            <Text1 data-aos="zoom-in-down" data-aos-duration="1500">DATE OF FESTIVAL</Text1>
             <Divider></Divider>
-            <BoxRight>
+            <BoxRight data-aos="flip-up" data-aos-duration="1500">
                 <BoxLeft>
                     <SubColumn1>
                         <SubColumn1Left>date of obon <br />festival</SubColumn1Left>
-                        <SubColumn1Right src={chromfire} />
+                        <SubColumn1Right src={chromfire} data-aos="fade-left" data-aos-duration="1500" />
                     </SubColumn1>
                     <SubColumn2>
                         August of 13th - 16th <br></br> every year.

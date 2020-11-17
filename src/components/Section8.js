@@ -87,10 +87,10 @@ export default () => {
     return (
         <Bg>
             <Box>
-                <Img src={respect} />
+                <Img src={respect} data-aos="zoom-in-right" data-aos-duration="1500" />
             </Box>
             <Box2>
-                <Text_box>
+                <Text_box data-aos="zoom-in-left" data-aos-duration="1500">
                     <Text>
                         ในวันที่ 13 สิงหาคมซึ่งเป็นวันเริ่มเทศกาลโอบ้ง <br /> จะมีการหักก้านกัญชากองสุมกันเรียกว่า “โองาระ” <br />
                     แล้วก็จุดไฟ ว่ากันว่าบรรพบุรุษจะขี่ควันจากดวงไฟ <br></br>

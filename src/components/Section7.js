@@ -81,15 +81,19 @@ export default () => {
     return (
         <Bg>
             <Col1>
-                <Text_head>
+                <Text_head data-aos="fade-right" data-aos-duration="1500">
                     Toro Nagashi
                 </Text_head>
             </Col1>
             <Col2>
-                <Pic src={fire} />
+                <Pic src={fire} data-aos="zoom-in"
+                    data-aos-duration="2000" />
             </Col2>
             <Col3>
-                <Text_content>
+                <Text_content data-aos="fade-right"
+                    data-aos-anchor="#example-anchor"
+                    data-aos-offset="500"
+                    data-aos-duration="1000">
                     จัดขึ้นเป็นครั้งแรกใน 1946 คือ Toro Nagashi หมายถึง <br></br>
                     “ โคมไฟที่ไหลลื่น “ เป็นพิธีชาวญี่ปุ่นที่ผู้ร่วมลอยโคมไฟประดิษฐ์ <br></br>
                     ขึ้นลงแม่น้ำเพื่อระลึกถึงวิญญาณของคนตาย

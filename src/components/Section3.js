@@ -19,7 +19,7 @@ const Text = styled.div`
     color: black;
     font-weight: bold;
     font-size: 64px;
-    margin-top: 80px;
+    margin-top: 110px;
     text-align: center;
 `;
 
@@ -113,7 +113,7 @@ const Button = styled.div`
 export default () => {
     return (
         <Bg id="section3">
-            <Text>
+            <Text data-aos="fade-down" data-aos-duration="2000">
                 Activities
             </Text>
             <Box>
@@ -122,30 +122,30 @@ export default () => {
                 <Divider></Divider>
             </Box>
             <BoxCard>
-                <Card1>
+                <Card1 data-aos="flip-left" data-aos-duration="2000">
                     <Img src={img_1} />
                     <TextCard>
                         Toro Nagashi
                     </TextCard>
-                    <Link to="/toro">
+                    <Link to="/toro" data-aos="zoom-in" data-aos-duration="3000">
                         <Button>とうろう流し)</Button>
                     </Link>
                 </Card1>
-                <Card2>
+                <Card2 data-aos="flip-left" data-aos-duration="2000">
                     <Img src={img_2} />
                     <TextCard>
                         Bon Odori dance
                     </TextCard>
-                    <Link to="/bon">
+                    <Link to="/bon" data-aos="zoom-in" data-aos-duration="3000">
                         <Button>盆踊りダンス</Button>
                     </Link>
                 </Card2>
-                <Card3>
+                <Card3 data-aos="flip-left" data-aos-duration="2000">
                     <Img src={img_3} />
                     <TextCard>
                         Pay respect to ancestor
                     </TextCard>
-                    <Link to="/respect">
+                    <Link to="/respect" data-aos="zoom-in" data-aos-duration="3000">
                         <Button>おぼん</Button>
                     </Link>
                 </Card3>

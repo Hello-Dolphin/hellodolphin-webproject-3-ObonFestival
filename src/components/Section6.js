@@ -78,11 +78,13 @@ const Button = styled.div`
 export default () => {
     return (
         <Group_mountain>
-            <Pic src={girl} />
+            <Pic src={girl} data-aos="fade-right" data-aos-duration="1500" />
             <BigBox>
                 <Box>
-                    <Text_1>Bon Odori Dance</Text_1>
-                    <Text_2>
+                    <Text_1 data-aos="fade-left" data-aos-duration="1500">
+                        Bon Odori Dance
+                    </Text_1>
+                    <Text_2 data-aos="fade-left" data-aos-duration="1500">
                         Bon Odori หรือ Bon dance <br /> เป็นการเต้นรำแบบหนึ่งที่แสดงในช่วงฤดูร้อนของญี่ปุ่น <br />
                         เทศกาลเต้นรำ Bon Odori ที่ยิ่งใหญ่ทั้งสามของญี่ปุ่นกลับเป็น
                         ตัวแทนของการผสมผสานท่าเต้นแบบดั้งเดิมเข้ากับความรื่นเริง

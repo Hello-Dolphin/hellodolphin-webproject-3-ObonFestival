@@ -13,6 +13,13 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,400;0,600;1,300;1,600&display=swap"
 		rel="stylesheet">
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<script>
+		const init = () => {
+			AOS.init();
+		}
+	</script>
 
 	<!--
       manifest.json provides metadata used when your web app is installed on a
@@ -21,7 +28,7 @@
 	<link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
 </head>
 
-<body>
+<body onload="init()">
 	<div id="root"></div>
 </body>
 

@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 import Sc1_background from '../images/section1_bg.png';
-import keyframe from '../styles/App.css';
 import fire from '../images/Chromfire.png';
 
 const Section = styled.div`
@@ -46,21 +45,13 @@ const Chromfire = styled.img`
 
 
 
-
-
 export default () => {
 	return (
-
 		<Section id="section1">
-
 			<>
 				<Chromfire className="chromfire" src={fire}></Chromfire>
 				<Text1 className="text">Obon</Text1>
 				<Text2 className="text">Festival</Text2>
-
-			
-
-					
 
 			</>
 		</Section>

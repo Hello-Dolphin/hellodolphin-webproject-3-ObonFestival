@@ -62,7 +62,7 @@ const Text2 = styled.p`
 export default () => {
     return (
         <Bg>
-            <Text>
+            <Text data-aos="fade-down-right" data-aos-duration="1500">
                 Obon Symbol
             </Text>
             <Divider></Divider>
@@ -70,7 +70,7 @@ export default () => {
                 <Bean className="beans" src={beans}></Bean>
             </Box>
             <Box2>
-                <Text2>
+                <Text2 data-aos="zoom-out-up" data-aos-duration="1500">
                     “โชเรียวอุมะ” เป็นชื่อของมะเขือม่วงและแตงกวา ที่ใช้ตะเกียบหรือไม้ไผ่เอามาเหลาให้เล็กแล้วนำไปเสียบให้เป็นขาสี่ขา เพื่อเปรียบเสมือนว่าเป็นยานพาหนะของวิญญาณกลับไป
                 </Text2>
             </Box2>
