@@ -17,17 +17,16 @@ const Section = styled.div`
 `;
 
 const Text1 = styled.h1`
-	font-size: 50px;
+	font-size: 100px;
 	letter-spacing: 4px;
 	color: white;
 	text-transform: uppercase;
 	font-family: Josefin Sans;
 	transform: translateY(-30px);
-
 `;
 
 const Text2 = styled.h1`
-	font-size: 25px;
+	font-size: 50px;
 	letter-spacing: 8px;
 	color: #EEE;
 	text-transform: uppercase;
@@ -35,24 +34,30 @@ const Text2 = styled.h1`
 	transform: translateY(-20px);
 `;
 
-const Chromfire = styled.img`
+const Chromfire1 = styled.img`
 	width: 100px;
     height: 100px;
-	position: relative;
+	transform: translateY(200px);
+	margin-right: 1500px; 
+	margin-top: 25px;
+`;
+
+const Chromfire2 = styled.img`
+	width: 100px;
+    height: 100px;
 	transform: translateY(200px);
 	margin-right: 1050px; 
 `;
-
-
 
 export default () => {
 	return (
 		<Section id="section1">
 			<>
-				<Chromfire className="chromfire" src={fire}></Chromfire>
+			
 				<Text1 className="text">Obon</Text1>
 				<Text2 className="text">Festival</Text2>
-
+				<Chromfire1 className="chromfire" src={fire}></Chromfire1>
+				<Chromfire2 className="chromfire" src={fire}></Chromfire2>
 			</>
 		</Section>
 	)
