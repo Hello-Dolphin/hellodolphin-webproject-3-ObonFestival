@@ -78,6 +78,7 @@ const Button = styled.div`
     background: rgba(18, 27, 34, 0.87);
     font-size: 30px;
     color: white;
+    padding-left: 55px;
     padding-top: 10px;
     text-decoration: none;
 `;

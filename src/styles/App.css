@@ -15,8 +15,6 @@
     transform-origin: bottom center;
 }
 
-
-
 @keyframes  scale{
 	0%{
         transform: rotateZ(-2deg);
@@ -26,4 +24,24 @@
         transform: rotateZ(7deg);
     }
 }
+
+.beans{
+    
+    animation: beans 2s ease-in-out alternate infinite;  
+    transform-origin: bottom center;
+}
+
+@keyframes  beans{
+	0%{
+        transform: rotateZ(-0deg);
+        
+    }
+    100%{
+        transform: rotateZ(5deg);
+    }
+}
+
+
+
+
 

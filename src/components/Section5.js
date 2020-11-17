@@ -34,6 +34,8 @@ const Box = styled.div`
     width: 700px;
     height: 400px;
     padding-left: 70px;
+    transform: translateY(-90px);
+
 `;
 
 const Bean = styled.img`
@@ -65,7 +67,7 @@ export default () => {
             </Text>
             <Divider></Divider>
             <Box>
-                <Bean src={beans} />
+                <Bean className="beans" src={beans}></Bean>
             </Box>
             <Box2>
                 <Text2>
