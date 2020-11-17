@@ -22,7 +22,7 @@ const Text1 = styled.h1`
 	color: white;
 	text-transform: uppercase;
 	font-family: Josefin Sans;
-	transform: translateY(-30px);
+	transform: translateY(60px);
 `;
 
 const Text2 = styled.h1`
@@ -31,7 +31,7 @@ const Text2 = styled.h1`
 	color: #EEE;
 	text-transform: uppercase;
 	font-family: Josefin Sans;
-	transform: translateY(-20px);
+	transform: translateY(60px);
 `;
 
 const Chromfire1 = styled.img`
@@ -53,7 +53,6 @@ export default () => {
 	return (
 		<Section id="section1">
 			<>
-			
 				<Text1 className="text">Obon</Text1>
 				<Text2 className="text">Festival</Text2>
 				<Chromfire1 className="chromfire" src={fire}></Chromfire1>

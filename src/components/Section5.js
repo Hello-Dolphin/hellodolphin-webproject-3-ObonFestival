@@ -35,7 +35,6 @@ const Box = styled.div`
     height: 400px;
     padding-left: 70px;
     transform: translateY(-90px);
-
 `;
 
 const Bean = styled.img`
@@ -44,7 +43,7 @@ const Bean = styled.img`
 `;
 
 const Box2 = styled.div`
-    width: 500px;
+    width: 600px;
     height: 100px;
     margin-left: 200px;
 `;
@@ -53,7 +52,7 @@ const Text2 = styled.p`
     font-family: Prompt;
     font-style: normal;
     font-weight: normal;
-    font-size: 20px;
+    font-size: 24px;
     color: white;
     text-align: left ;
 `;

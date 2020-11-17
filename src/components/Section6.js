@@ -78,7 +78,7 @@ const Button = styled.div`
 export default () => {
     return (
         <Group_mountain>
-            <Pic src={girl} data-aos="fade-right" data-aos-duration="1500" />
+            <Pic src={girl} />
             <BigBox>
                 <Box>
                     <Text_1 data-aos="fade-left" data-aos-duration="1500">
