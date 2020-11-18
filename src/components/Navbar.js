@@ -19,9 +19,9 @@ const Nav = styled.div`
 const NavLogo = styled.div`
 	position: fixed;
 	left: 200px;
-	top: 40px;
-	height: 80px;
-	width: 80px;
+	top: 4px;
+	height: 70px;
+	width: 70px;
 	background-color: white;
 	border-radius: 40px;
 	padding: 10px;
